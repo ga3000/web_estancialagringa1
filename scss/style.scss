@@ -1,0 +1,868 @@
+/*@import irl(ejemplo); con esto imnporto de otro css*/
+
+$color: #289653; /*verde*/
+$color2: white; /*blanco*/
+
+/*--------------------------------------------------------------
+# Textos
+--------------------------------------------------------------*/
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins";
+}
+
+
+p {
+	color: #191919;
+	letter-spacing: 0px;
+	line-height: 25px;
+	font-size: 14px;
+	font-family: "Poppins";
+}
+
+.titulo__seccion-home {
+  text-align: center;
+}
+
+.titulo__seccion-home h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+  color: $color;
+}
+
+.titulo__box-home {
+	font-weight: 600;
+	line-height: 25px;
+	font-size: 18px;
+	color: $color;
+}
+
+.texto__pension-Home {
+	font-size: 18px;
+}
+
+
+
+.titulo__preguntas {
+	font-family: "Poppins";
+	color: $color;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+
+/*--------------------------------------------------------------
+# Color
+--------------------------------------------------------------*/
+
+.color__blanco {
+	color: white;
+}
+
+.color__fondo-blanco {
+	background-color: white;
+}
+
+.color__verde {
+	color: $color;
+}
+
+
+/*ALINEACIÓN*/
+.centerVertical {
+	height: 100%;
+	width: 100%;
+}
+
+.center {
+	text-align: center;
+}
+
+.inline {
+	display: inline;
+}
+
+.inline2 {
+	display: inline-block;
+
+}
+
+
+#pond {
+  display: flex;
+  align-items: flex-start;
+}
+
+.yellow {
+	align-self: start;
+}
+
+
+/*--------------------------------------------------------------
+# Botones
+--------------------------------------------------------------*/
+
+
+
+/* HACER BOTONES!!!!!!! */
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+/*
+.section-bg {
+  background-image: url("img/home_fondo_testimonios.jpg");
+  background-position: center;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #124265;
+}
+*/
+
+
+/*--------------------------------------------------------------
+# home CARRUSEL
+--------------------------------------------------------------*/
+
+.carousel-item1 {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: -webkit-transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+}
+
+.carousel-caption1 {
+  position: absolute;
+  right: 15%;
+  bottom: 100px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+}
+
+
+/*--------------------------------------------------------------
+# home SERVICIOS
+--------------------------------------------------------------*/
+
+.servicios {
+	padding-top: 150px;
+	padding-bottom: 150px;
+	}
+
+.servicios__box {
+	padding: 20px;
+	margin-bottom: 20px;
+	border: solid 1px white;
+  	box-sizing: content-box;
+  	text-align: center;
+  	min-height: 400px;
+
+}
+
+.servicios__imagen {
+	padding-bottom: 20px;
+	width: 120px;
+  	margin: 0 auto;
+}
+
+
+/*--------------------------------------------------------------
+# home TESTIMONIOS
+--------------------------------------------------------------*/
+
+.testimonios {
+	padding-top: 150px;
+	padding-bottom: 150px;
+	}
+
+.testimonios__fondo {
+	
+	background-image: url("../img/home_fondo_testimonios.jpg"); /*PORQUE NO ANDA??*/
+ 	background-position: center;
+}
+
+.testimonios__box {
+	border: 1px;
+	border-color: white;
+	padding: 20px;
+  	box-sizing: content-box;
+  	text-align: center;
+  	min-height: 320px;
+
+}
+
+.testimonios__imagen {
+	padding-bottom: 20px;
+	width: 150px;
+  	border-radius: 50%;
+  	margin: 0 auto;
+}
+
+
+
+
+.pension__cabezal-img {
+	background-image: url("../img/home_fondo_testimonios.jpg"); /*PORQUE NO ANDA??*/
+ 	background-position: center;
+}
+
+
+
+/*--------------------------------------------------------------
+# nuevas RANDOM / ALINEACIÓN
+--------------------------------------------------------------*/
+
+.padding__seccion1 {
+	padding: 20px;
+}
+
+.align-center {
+	text-align: center;
+	padding-bottom: 0px;
+}
+
+.align-DE {
+	text-align: right;
+	padding-bottom: 0px;
+}
+
+.align__centrado_total {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.margin1 {
+	margin-bottom: 20px;
+}
+
+
+.nav1 {
+  background: white;
+  width: 100%;
+  height: 100px;
+  top: 0px;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# SECCION PREGUNTAS FRECUENTES
+--------------------------------------------------------------*/
+
+
+.fotoHeader_preguntas {
+	padding: 20px;
+	height: 200px;
+	background-image: url("../img/foto_home_medio.jpg"); /*PORQUE NO ANDA??poner "../" */
+ 	background-position: center;
+}
+
+
+.card__preguntas-tamano1 {
+	background-color: red;
+	height: 70px;
+}
+
+
+/*--------------------------------------------------------------
+# SECCION CONTACTO
+--------------------------------------------------------------*/
+
+.contacto__box {
+	background-color: none;
+	border: solid 1px #CCCCCC;
+	padding: 40px;
+}
+
+.contacto__box-dentro {
+	padding: 40px;
+}
+
+.contacto__titulo2 {
+	color: $color;
+	font-family: "Poppins";
+	font-size: 24px;
+	padding-bottom: 50px;
+	
+}
+
+
+/*--------------------------------------------------------------
+# SECCION GALERIA
+--------------------------------------------------------------*/
+
+
+.gallery-block.grid-gallery{
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.gallery-block.grid-gallery .heading{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.gallery-block.grid-gallery .heading h2{
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: $color;
+}
+
+.gallery-block.grid-gallery a:hover{
+  opacity: 0.8;
+}
+
+.gallery-block.grid-gallery .item img{
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+  transition: 0.4s;
+}
+
+.gallery-block.grid-gallery .item{
+  margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+
+  .gallery-block.grid-gallery .scale-on-hover:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
+  }
+}
+
+
+
+
+
+
+
+
+/*FLEX*/
+
+
+.flex1 {
+	display: flex; /*ACÁ PUDE PONERLOS EN LINEA DENTRO DEL FLEX COMO DISPLAY INLINE /INLINE-BLOCK*/
+	flex-wrap: nowrap;
+	justify-content: center;
+
+}
+
+.flex2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.flexColumna {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.flexGaleria {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.flexGaleria2 {
+	display: inline-flex; 
+	flex-direction: row; 
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/*GALERIA DE FOTOS */
+
+.fotosGaleria {
+	filter: grayscale(100%);
+	height: 300px;
+}
+
+.fotosGaleriaHome {
+	width: 100%;
+}
+
+
+
+
+
+/*TITULOS*/
+.titulo-home-header-ppal{
+	color: $color;
+	font-family: "Oswald";
+	font-size: 75px;
+	line-height: 80px;
+}
+
+.titulo-secciones{
+	color: white;
+	font-family: "Oswald";
+	font-size: 50px;
+	padding: 30px;
+	margin: 0px;
+}
+
+.Titulo {
+	color: white;
+	font-family: "Oswald";
+	font-weight: 400;
+	font-size: 46px;
+	 /* margin: 0px; LO AGREGUE PORQUE SINO ME BAJABA 2 RENGLONES EN EL HTML*/
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.subtituloHomeServicios {
+	font-family: "Oswald";
+	font-weight: 400;
+	font-size: 20px;
+	text-align: center;
+}
+.textoPensionHome{
+	color: black;
+	font-size: 16px;
+	font-weight: 300;
+}
+.nombreTestimoniosHome {
+	color: white;
+	font-family: "Oswald";
+	font-weight: 400;
+	font-size: 20px;
+	text-align: center;
+}
+.textoTestimoniosHome{
+	color: white;
+	font-family: "Poppins" sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 14px;
+	text-align: center;
+}
+
+
+
+
+/*esto es para el menu*/
+ul {
+	list-style: none;
+
+}
+
+li {
+	display: inline;
+}
+
+/*
+ul li a {
+	color: #7B6658;
+	font-family: "Poppins";
+	font-weight: 400px;
+	font-size: 16px;
+	text-decoration: none;
+	padding: 10px;
+}
+
+ul li a:hover {
+	color: green;
+	font-family: "Poppins";
+	font-weight: 400px;
+	font-size: 16px;
+	text-decoration: none;
+	padding: 10px;
+	transition: all 1s;
+}
+
+
+ul li {
+	color: #289653;
+	font-family: "Poppins";
+	font-weight: 400px;
+	font-size: 14px;
+	text-decoration: none;
+
+}
+*/
+
+
+/*BARRA DE NAVEGACIÓN - POSICIONES DOBLE BARRA*/
+
+.posicionNav2 {
+  background: white;
+  position: sticky; /*aca con fixed la barra superior desaparece en la 2da barra, como en SIDS*/
+  width: 100%;
+  height: 100px;
+  top: 0px;
+ 
+}
+.posicionNav1 {
+  background: #f5f5f5;
+  position: sticky;
+  width: 100%;
+  height: 50px;
+  top: 0px;
+}
+
+
+
+
+/*FONDOS*/
+
+.fondoImagen1 {
+	background-image: url("img/foto_home_medio.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	height: 600px;
+	background-position: center center;  /*   o sino uno de los 2   */
+	background-size: cover; /*me escala la imagen con el responsive*/
+	padding: 30px; /*no olvidarme el padding genera lio de alturas de los elementos internos sino*/
+}
+
+.fondoImagenServicios {
+	background-image: url("img/foto_home_medio.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	height: 200px;
+	background-position: center;  /*   o sino uno de los 2   */
+	padding: 20px;
+}
+
+.fondoTestimonios {
+	background-image: url("img/home_fondo_testimonios.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center;  /*   o sino uno de los 2   */
+	height: 600px;
+	margin: 0px;
+	padding: 40px;
+}
+
+.fondoPensionHome {
+	background-color: #289653;
+	padding: 100px;
+}
+
+.fondoServHome {
+	background-size: auto; /*NECESITAS PONERLE UNA MEDIDA AL FONDO SINO LOS HIJOS "EJ.FLEX" NO TIENE REFERENCIAS*/
+	margin: 0px;
+	padding: 40px;
+}
+
+.fondoGaleria {
+	background-color: red;
+}
+
+.fondoContacto {
+	background-color: #289653;
+	width: 100%;
+	height: 500 px;
+}
+
+.container1 {
+	background-color: white;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-right: 15px;
+    padding-left: 15px; 
+}
+
+
+.containerFooter {
+	background-image: linear-gradient(to right, yellow, green);
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.containerContact {
+    width: 800px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0px auto; 	/*PARA CENTRARLO CON EL DIV PADRE (TEXTALIGN-CENTER)*/
+}
+
+
+
+.box-home-servicios { /*HOME CAJAS SERVICIOS*/
+	background-color: #f4f4f4;
+	border: solid 1px #CCCCCC;
+	width: 230px; /*el width son 280px, es decir 230 + 25px padding de cada lado*/
+	height: 400px;
+	margin: 10px;
+	padding: 25px;
+	overflow: none;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.box-home-textimonios { /*HOME CAJAS TESTIMONIOS*/
+	background-color: none;
+	border: solid 1px #CCCCCC;
+	width: 230px; /*el width son 280px, es decir 230 + 25px padding de cada lado*/
+	height: 300px;
+	margin: 10px;
+	padding: 25px;
+	overflow: none;
+	display: inline-block; /*SE PUEDE BORRAR ESTE COMANDO SI YA APLICA EL FLEX???*/
+	/* si quiero alinear solo dentro del box pongo acá: text-align: center; */
+	margin-bottom: 20px;
+}
+
+
+
+.boxContacto2 {
+	background-color: none;
+	border: solid 1px #CCCCCC;
+	width: 500px; /*el width son 280px, es decir 230 + 25px padding de cada lado*/
+	height: 800px;
+	
+	padding: 25px;
+	overflow: none;
+}
+
+
+
+
+
+/*BOTONES*/
+
+.boton__nav {
+	text-decoration: none;
+	font-family: "Poppins";
+	font-weight: 400;
+	font-size: 16px;
+	color: black;
+}
+
+.boton__nav:hover {
+	text-decoration: none;
+	font-family: "Poppins";
+	font-weight: 400;
+	font-size: 16px;
+	color: $color;
+}
+
+.boton_azul1 {
+	width: 250px;
+	height: 50px;
+	margin-top: 100px;
+	font-family: "Poppins";
+	font-weight: 400;
+	font-size: 14px;
+	font-color: green;
+	background-color: red;
+}
+
+.boton_azul1:hover {
+	width: 250px;
+	height: 50px;
+	font-family: "Poppins";
+	font-weight: 400;
+	font-size: 16px;
+	font-color: green;
+	background-color: red;
+}
+
+
+.boxBotonServHome {
+	text-decoration: none;
+	font-family: "Poppins";
+	font-weight: 300;
+	font-size: 12px;
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 100px;
+	padding-right: 100px;
+	border-radius: 4px;
+	margin-top: 40px;
+	margin-bottom: 60px;
+	/*el background color se lo doy con estilo x separado para no reescribir todas las prop anteriorares para cada boton de distinto color*/
+}
+/*ANIMACIÓN*/
+.boxBotonServHome:hover {
+	background-color: red;
+	transform: rotateZ(-15deg);
+	transition: all 0.5s;
+
+}
+
+.box-fotos {
+	background-color: #f4f4f4;
+	width: 230px; /*el width son 280px, es decir 230 + 25px padding de cada lado*/
+	height: 540px;
+	margin: 10px;
+	padding: 25px;
+	overflow: none;
+	display: inline-block;
+}
+.fotoMini {
+	width: 230px;
+	width: auto;
+
+}
+
+
+/*GRILLA HOME FOTOS*/
+
+#grilla1 {
+	display: grid;
+	grid-template-areas: 
+	"fotoA fotoB fotoC fotoD fotoE";
+
+	grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+/*.border {
+	border: 1px solid black;
+}*/
+
+
+
+/*GRILLA HOME LA PENSION*/
+
+#grilla0 {
+	display: grid;
+	grid-template-areas: 
+	"pensionA pensionB";
+
+	grid-template-columns: 55% 45%;
+	grid-column-gap: 10px;
+	align-items: center;
+	justify-content: center;
+}
+
+.border1 {
+	border: 1px solid black;
+}
+section#pensionA {
+	grid-area: pensionA;
+}
+section#pensionB {
+	grid-area: pensionB;
+}
+
+
+
+
+
+
+/*COLORES*/
+
+.verde2 {background-color: #289653;}
+
+.blancoTexto {color: white;}
+
+.verdeTexto {color: #289653;}
+
+.celesteTexto {color: 2896A0;}
+
+.azulTexto {color: #3F6AA0;}
+
+
+
+
+/*MARGENES*/
+.sinMargen {
+   	margin:0;
+  	padding:0;
+}
+
+
+
+/*ANIMACIÓNES*/
+
+
+.fotosGaleriaHome:hover {
+	transform: scale(1.2,1.2);
+	transition: all 1s;
+}
+
+.box-home-textimonios:hover {
+	transform: scale(1.2,1.2);
+	transform: rotate(5deg);
+	transition: all 1s;
+}
+
+.box-home-servicios:hover { /*HOME CAJAS SERVICIOS*/
+	background-color: white;
+	border: solid 1px #CCCCCC;
+	width: 230px; /*el width son 280px, es decir 230 + 25px padding de cada lado*/
+	height: 400px;
+	margin: 10px;
+	padding: 25px;
+	overflow: none;
+	text-align: center;
+	margin-bottom: 50px;
+	box-shadow: 0px 0px 5px 1px grey;
+	transition: all 0.3s;
+}
+
+/*EJEMPLOS DE SASS*/
+
+ul {
+	list-style: none;
+	li {
+		padding: 15px;
+		display: inline-block;
+		a {
+			color: #444;
+		}
+	}
+	li.clase{
+		color: green;
+	}
+}
+
+
+
+
+
+
